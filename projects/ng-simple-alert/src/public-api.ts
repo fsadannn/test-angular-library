@@ -2,6 +2,6 @@
  * Public API Surface of ng-simple-alert
  */
 
-export * from './lib/ng-simple-alert.service';
-export * from './lib/ng-simple-alert.component';
-export * from './lib/ng-simple-alert.module';
+export * from './lib/components/ng-alert/ng-alert.module';
+export * from './lib/components/ng-alert/ng-alert.component';
+export * from './lib/services/alert-message.service';

@@ -5,6 +5,11 @@
   "projects": {
     "ng-simple-alert": {
       "projectType": "library",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "projects/ng-simple-alert",
       "sourceRoot": "projects/ng-simple-alert/src",
       "prefix": "lib",
